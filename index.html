@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColorCatcher Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="mode">
+        <div id="dark">Dark</div>
+    <div id="light">Light</div>
+    </div>
+    
+    <div class="game-container">
+        <h1>🎯Color Catcher</h1>
+        <p>click on: <span id="targetcolor"></span></p>
+    <div id="grid" class="color-grid"></div>
+    <p>⏱️Time left: <span id="time"></span></p>
+    <p>"🏆score:"<span id="score"></span></p>
+    <button onclick="startgame()">Start Game</button>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
